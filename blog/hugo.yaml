@@ -2,3 +2,6 @@ baseURL: https://singh.arvinder.me/
 locale: en-us
 title: Arvinder Singh
 theme: ["PaperMod"]
+params:
+  ShowShareButtons: true
+  ShareButtons: ["linkedin", "twitter"] # To customize which share buttons to be enabled on page

@@ -1,7 +1,22 @@
 baseURL: https://singh.arvinder.me/
 locale: en-us
-title: Arvinder Singh
+title: arvinder.me
 theme: ["PaperMod"]
+author: Arvinder Singh
+description: Notes on spatial intelligence, research, and related ideas.
+pagination:
+  pagerSize: 10
+menu:
+  main:
+    - name: Posts
+      url: /posts/
+      weight: 10
 params:
   ShowShareButtons: true
-  ShareButtons: ["linkedin", "twitter"] # To customize which share buttons to be enabled on page
+  ShareButtons: ["linkedin", "twitter"]
+  defaultTheme: dark
+  disableThemeToggle: true
+  ShowReadingTime: true
+  ShowPostNavLinks: true
+  mainSections:
+    - posts

@@ -22,4 +22,4 @@ params:
     - posts
 caches:
   images:
-    dir: cacheDir/images
+    dir: :cacheDir/images

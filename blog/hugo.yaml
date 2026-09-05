@@ -20,3 +20,6 @@ params:
   ShowPostNavLinks: true
   mainSections:
     - posts
+caches:
+  images:
+    dir: cacheDir/images
